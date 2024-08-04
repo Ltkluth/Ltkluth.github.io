@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Write a Nature Appreciation Note</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="/style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="/script.js" defer></script>
+
+	<!-- font from google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+	<nav>
+		<ul>
+			<li><a href="index.html"> Home </a></li>
+			<li><a href="about.html"> About </a></li>
+		</ul>
+	</nav>
+
+	<hr>
+
+	<header>
+		<h1>Write a Nature Appreciation Note</h1>
+		<p id = 'welcome-note'>Welcome to your personal letter writing experience!</p>
+	</header>
+
+	<main>
+		<div id = 'entrybox'>
+			<h2>Instructions:</h2>
+			<p>Fill in the blanks to complete your letter. </p>
+			<p>For example: Thank you for (what) <span id = 'green-txt' class = 'handwriting'><i>making me feel at peace</i></span> by (how) <span id = 'green-txt' class = 'handwriting'><i>providing beautiful and quiet scenes</i></span> (when) <span id = 'green-txt' class = 'handwriting'><i>all the time.</i> </span></p>
+			
+			<label for='what'>Thank you for (what)</label>
+			<input type = 'text' id = 'what'>
+	
+			<label for='how'>by (how)</label>
+			<input type = 'text' id = 'how'>
+	
+			<label for='when'>(when)</label>
+			<input type = 'text' id = 'when'>
+	
+			<label for='name'>. From (your name) </label>
+			<input type = 'text' id = 'name'>
+				
+			<button id ='enter'>Enter</button>
+	
+			<button id = 'restart-button'>Erase</button>
+			</div>
+
+		<div id = 'letterbox'>
+			<div id = 'letter-txt' class = 'handwriting'>
+				<p id="message"></p>
+				</div>
+		</div>
+		
+		<hr>
+			
+  </main>
+
+	<footer>
+		<h2>Thank you for writing a nature appreciation note 💗</h2>
+		</footer>
+</body>
+</html>
+
+
+
