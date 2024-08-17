@@ -128,3 +128,12 @@ object-fit: cover;
 #layla-photo{
   width:500px;
 }
+
+@media screen and (max-width: 600px){
+  #entrybox {
+    width: 90%;
+  }
+  #letterbox {
+    width: 100%
+  }
+}
