@@ -20,7 +20,7 @@ function display (){
   var name = document.getElementById('name').value;
 
 // adds new text to message
-  message.innerHTML = 'Dear nature, <br> thank you for ' + what +' by' + how +' ' + when + '.' + '<br> From ' + name;
+  message.innerHTML = 'Dear nature, <br> thank you for ' + what +' by ' + how +' ' + when + '.' + '<br> From ' + name;
 }
 
 function restart (){
